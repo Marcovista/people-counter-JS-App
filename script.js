@@ -24,3 +24,10 @@ function save() {
   saveEl.textContent += countStr
   countEl.textContent = 0
 }
+
+
+function prepareEmail() {
+  const countData = document.getElementById("save-el").textContent;
+  const mailtoLink = `mailto:?subject=Count data&body=${countData}`;
+  window.location.href = mailtoLink;
+}
