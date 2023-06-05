@@ -1,10 +1,8 @@
-
 #save-btn {
     background: darkgreen;
 }
 
 body {
-    background-image: url("station.jpg");
     background-size: cover;
 font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
@@ -49,8 +47,14 @@ button {
 #save-btn {
     background: darkgreen;
 }
-
-#sendbyemail-btn {
-  background: grey;
-  display: ;
+#send-btn {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background: lightblue;
 }
