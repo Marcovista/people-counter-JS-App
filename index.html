@@ -1,17 +1,36 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - JS App - People Counter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <html>
+
     <head>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
-        <h1>People entered:</h1>
+        <h1>Count:</h1>
         <h2 id="count-el">0</h2>
         <button id="increment-btn" onclick="increment()">ONE MORE</button>
-      <button id="locrement-btn" onclick="locrement()">ONE LESS</button>
-     <button id="zero-btn" onclick="zero()">RESET</button>
-       <button id="save-btn" onclick="save()">SAVE & RESET COUNTER</button>
-      <p id="save-el">Passed at hour:</p>
-      <br><br>
-      <button id="sendbyemail-btn"  onclick="prepareEmail()">Send data by  email</button
-        <script src="index.js"></script>
+        <button id="locrement-btn" onclick="locrement()">ONE LESS</button>
+        <button id="zero-btn" onclick="zero()">RESET</button>
+        <button id="save-btn" onclick="save()">SAVE & RESET COUNTER</button>
+        <p id="save-el">Passed at hour: </p>
+        <br><br>
+        <input id="send-btn" type="button" value="SEND DATA BY EMAIL" onclick="sendEmail()">
     </body>
+
+    </html>
+    <!-- partial -->
+    <script src="./script.js"></script>
+    <script src="script.js"></script>
+</body>
+
 </html>
